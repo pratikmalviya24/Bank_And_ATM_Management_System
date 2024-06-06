@@ -180,3 +180,71 @@ BEGIN
 END//
 
 DELIMITER ;
+
+### Age Validation
+
+```sql
+DELIMITER //
+CREATE TRIGGER validateAgeTrigger
+BEFORE INSERT ON CustomerDetails
+FOR EACH ROW
+BEGIN
+    DECLARE dob_date DATE;
+    DECLARE age INT;
+    SET dob_date = STR_TO_DATE(NEW.dob, '%d-%M-%Y');
+    SET age = TIMESTAMPDIFF(YEAR, dob_date, CURDATE());
+    IF age < 18 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Person must be at least 18 years old to create an account.';
+    END IF;
+END//
+DELIMITER ;
+
+
+
+### Valid email 
+DELIMITER //
+
+CREATE TRIGGER validateEmailFormat
+BEFORE INSERT ON CustomerDetails
+FOR EACH ROW
+BEGIN
+    IF NEW.email NOT REGEXP '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$' THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Invalid email format.';
+    END IF;
+END//
+
+
+
+### Unique PAN Number
+CREATE TRIGGER ensureUniquePanNumber
+BEFORE INSERT ON PersonalDetails
+FOR EACH ROW
+BEGIN
+    IF EXISTS (SELECT 1 FROM PersonalDetails WHERE panNumber = NEW.panNumber) THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'PAN number must be unique.';
+    END IF;
+END//
+
+DELIMITER //
+
+
+
+### Unique Adhar number
+
+DELIMITER //
+
+CREATE TRIGGER ensureUniqueAadharNumber
+BEFORE INSERT ON PersonalDetails
+FOR EACH ROW
+BEGIN
+    IF EXISTS (SELECT 1 FROM PersonalDetails WHERE aadharNumber = NEW.aadharNumber) THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Aadhar number must be unique.';
+    END IF;
+END//
+
+DELIMITER ;
+
+
+
+
