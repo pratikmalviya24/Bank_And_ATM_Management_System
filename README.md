@@ -60,57 +60,81 @@ The customer will receive an email containing account details, including the acc
 ![email](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/8153084c-6958-4ace-be2e-202b7e156838)
 
 ### 10. Accessing Customer Details by the Admin
+![user_profile image](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/e4e42e2c-34f0-4353-b27f-49c55dc0763c)
 
 ### 11. Cash Withdrawal
+![cash-withdrawal-image](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/69222e5a-6d3e-4cd3-8af3-2690ea52a821)
 
 ### 12. Customer Information
 This displays the number of customers who hold accounts with Indian Bank.
+![customer-list](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/53b638b8-b8f2-4e9a-8ecd-4cbfbef5f4c1)
 
 ### 13. Transaction Details
+![transaction-history](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/fe480727-6980-4277-811b-1160bbfdaafb)
 
 ### 14. Cash Deposit
+![cash-deposit](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/7f191e40-7796-4f12-ac14-4cecd6555b2d)
 
 ### 15. View Balance
+![balance-query](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/77ee9a10-ede6-4228-be86-8c9d7590e72a)
 
 ### 16. PIN Change
+![pin-change (1)](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/fb6be7cf-902e-449c-9dc5-543737c46b60)
 
 ### 17. Money Transfer
+![money-transfer](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/2dd65277-c2ae-4a97-8871-c03f8a694d37)
 
 ### 18. Netbanking: Access by customers
+![authentication](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/46ad3ee2-a41b-4b50-b8db-0dc47ad5684f)
 
 ### 19. User Account Details
+![user-profile](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/4d5bb8cf-e666-4eb5-9540-0cba3fb1f12a)
 
 ### 20. Money Transfer by User
+![user-money-transfer](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/8e97e578-21fe-41f6-bb9b-8bf05ef7e448)
 
 ### 21. Transaction Details
+![user-transaction](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/bcb296e8-5b32-41dc-826e-44fd71a643df)
 
 ### 22. Balance Check
+![user-balance-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/c6529fa2-7c75-4850-afb8-f9ee277af83a)
 
 ### 23. Account Details
+![user-account-detail](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/f3f4028d-620d-46a7-a3b6-ebdc28ef7b7b)
 
 ## ATM System
 
-### ATM Login Page
+### 1. ATM Login Page
+![ATM](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/91835d21-5575-4a01-85fd-55ceaa1a4fe4)
 
-### Features of the ATM
+### 2. Features of the ATM
+![select-transaction](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/8fada643-0514-4660-aed7-42773d4c6f9d)
 
-### Cash Deposit
+### 3. Cash Deposit
+![deposit-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/52bd14dc-47d6-4a44-93dc-b7cf5af5f8a7)
 
-### Cash Withdrawal
+### 4. Cash Withdrawal
+![withdrawal-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/ad08d195-52ed-4c91-bcb3-52978ec3c8ff)
 
-### Balance Inquiry
+### 5. Balance Inquiry
+![balance-query-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/16b5623f-7867-4d4e-8eae-510de474b9d2)
 
-### Mini Statement
+### 6. Mini Statement
+![mini-statement](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/65cd563b-54c1-46c2-b331-cc0e1fb93c9e)
 
-### Fast Cash Withdrawal
+### 7. Fast Cash Withdrawal
+![fastcash-withdrawal](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/3925f5c6-32f7-4173-930f-f330e9f1bddd)
 
-### PIN Change in ATM
+### 8. PIN Change in ATM
 Get email notification like OTP.
+![otp page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/e73be02a-c515-458f-bbcd-daac3881a6a5)
 
-### OTP Notification
+### 9. OTP Notification
 The customer can modify the debit card's PIN if they input the right OTP.
+![otp-verification-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/6b4c1c42-cc97-4d00-9658-2256404bbc9f)
 
-### Set New PIN
+### 10. Set New PIN
+![pn-change-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/3face880-1c6d-49c3-9b50-6d9f70c883f6)
 
 ## Framework and System Requirements
 
