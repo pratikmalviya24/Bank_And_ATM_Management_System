@@ -9,9 +9,7 @@
 6. [Procedure](#procedure)
 7. [Function](#function)
 8. [Information About Tables](#information-about-tables)
-9. [ER Diagram](#er-diagram)
-10. [EER Diagram](#eer-diagram)
-11. [Database Connection](#database-connection)
+
 
 ## Introduction
 
@@ -181,6 +179,8 @@ END//
 
 DELIMITER ;
 
+```
+
 ### Age Validation
 
 ```sql
@@ -200,9 +200,11 @@ BEGIN
 END//
 DELIMITER ;
 
-
+```
 
 ### Valid email 
+
+```sql
 DELIMITER //
 
 CREATE TRIGGER validateEmailFormat
@@ -214,9 +216,10 @@ BEGIN
     END IF;
 END//
 
-
+```
 
 ### Unique PAN Number
+```sql
 CREATE TRIGGER ensureUniquePanNumber
 BEFORE INSERT ON PersonalDetails
 FOR EACH ROW
@@ -228,10 +231,10 @@ END//
 
 DELIMITER //
 
-
+```
 
 ### Unique Adhar number
-
+```sql
 DELIMITER //
 
 CREATE TRIGGER ensureUniqueAadharNumber
@@ -244,7 +247,11 @@ BEGIN
 END//
 
 DELIMITER ;
+```
+## Procedure
 
+## Function
 
+## Information About DateBase - Tables
 
 
