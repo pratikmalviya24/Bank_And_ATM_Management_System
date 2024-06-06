@@ -30,55 +30,63 @@ In Java, the front end of the bank management system is designed using `javax.sw
 ### 1. Welcome Page
 ![Indian_Bank_Main_Image](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/bf6f4707-65e1-4bff-b677-18836ec05cc2)
 
-### Bank Login Page
+### 2. Bank Login Page
+![Login-Page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/0d5c41e2-6dab-4736-956c-6c91cd174678)
 
-### Admin Login Page
+### 3. Admin Login Page
 Only accessible by Bank Employees.
+![admin-login-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/39084b99-d759-42dc-912b-fe87a4609317)
 
-### Admin Page
+### 4. Admin Page
+![admin-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/ee4d10e9-75bf-4118-b1e8-0d0b2b12c841)
 
-### Registration Form
+### 5. Registration Form
 Opening Fresh Account By Bank Employee (by clicking the account button in the above image, the below page will appear)
+![registration-form](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/e5139d99-480d-4523-a458-b5447e5eae61)
 
-### Customer Personal Detail Page
+### 6. Customer Personal Detail Page
 (by clicking the next button on the above page, the below page will appear)
+![custom-personal-detail](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/fab07eee-a23c-4df9-9864-689b7517babc)
 
-### Account Details Page
+### 7. Account Details Page
 (by clicking the next button on the above page, the below page will appear)
+![account-detail](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/58d61222-32b7-48fe-8602-6b423ea05cf0)
 
-The customer must deposit at least 1000 rupees. After clicking the submit button on the above page, the below page will appear.
+8. The customer must deposit at least 1000 rupees. After clicking the submit button on the above page, the below page will appear.
+![cash-deposit-page](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/fcb90f0b-6068-45b3-88be-3f13d48d2d4a)
 
-### Email Notifications
+### 9. Email Notifications
 The customer will receive an email containing account details, including the account number, debit card number, and debit card PIN, after submitting their information.
+![email](https://github.com/pratikmalviya24/Bank_And_ATM_Management_System/assets/129980635/8153084c-6958-4ace-be2e-202b7e156838)
 
-### Accessing Customer Details by the Admin
+### 10. Accessing Customer Details by the Admin
 
-### Cash Withdrawal
+### 11. Cash Withdrawal
 
-### Customer Information
+### 12. Customer Information
 This displays the number of customers who hold accounts with Indian Bank.
 
-### Transaction Details
+### 13. Transaction Details
 
-### Cash Deposit
+### 14. Cash Deposit
 
-### View Balance
+### 15. View Balance
 
-### PIN Change
+### 16. PIN Change
 
-### Money Transfer
+### 17. Money Transfer
 
-### Netbanking: Access by customers
+### 18. Netbanking: Access by customers
 
-### User Account Details
+### 19. User Account Details
 
-### Money Transfer by User
+### 20. Money Transfer by User
 
-### Transaction Details
+### 21. Transaction Details
 
-### Balance Check
+### 22. Balance Check
 
-### Account Details
+### 23. Account Details
 
 ## ATM System
 
